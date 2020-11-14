@@ -11,7 +11,8 @@ body{
 }
 
 .sizeLogo{
-    width: 315px;
+    margin: 20px;
+    width: 370px;
     height: auto;
 }
 
@@ -22,8 +23,8 @@ body{
 }
 
 .sizePourcent{
-    font-size: 60px;
-    padding-top: 10px;
+    font-size: 80px;
+    padding-top: 20px;
 }
 
 .colorOrange{
@@ -31,13 +32,13 @@ body{
 }
 
 .sizeIcone{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 
 .box1{
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165px;
     background-color: #ffffff;
     border: 2px solid #F15A29;
     border-radius: 20px;
@@ -49,8 +50,8 @@ body{
 }
 
 .box2{
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165px;
     background: #655D5D;
     border: 2px solid #F15A29;
     border-radius: 20px;
@@ -92,13 +93,13 @@ body{
     }
 
     .sizePara{
-        font-size: 9px;
+        font-size: 8px;
     }
-    .h2{
+    .h1{
         font-size: 20px;
     }
 
-    .h4{
+    .h3{
         font-size: 15px;
     }
 
