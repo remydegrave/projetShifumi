@@ -1,3 +1,5 @@
+#draggable3 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+#droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
 body{
     background: #333333;
     height: 100vh;
@@ -31,12 +33,30 @@ body{
     color: #F15A29;
 }
 
-.sizeIcone{
-    width: 100px;
-    height: 100px;
+.flexBox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.box1{
+.img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.flexBox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#droppable{
     width: 165px;
     height: 165px;
     background-color: #ffffff;
@@ -44,9 +64,12 @@ body{
     border-radius: 20px;
 }
 
-.center{
-    margin-top: 50%;
-    font-size: 15px;
+.hovered{
+    border: 3px solid #f7a943;
+}
+
+.ui-state-highlight{
+    color: #F15A29;
 }
 
 .box2{
@@ -55,6 +78,7 @@ body{
     background: #655D5D;
     border: 2px solid #F15A29;
     border-radius: 20px;
+    margin: 10px;
 }
 
 .btnReglesOrigins{
@@ -77,6 +101,30 @@ body{
 
 .end{
     justify-content: flex-end;     
+}
+
+/* Modale Thomas Origine : */
+#modaleOrigin{
+    background-color: #333333;
+    border-radius: 15px;
+}
+.modalTitle{
+    color: #F15A29;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.modalBigTitle{
+    color: #F15A29;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.buttonReturn{
+    color: #F15A29;
+}
+.par{
+    padding: 10px;
 }
 
 @media screen and (max-width: 460px){
@@ -170,4 +218,30 @@ body{
     .end{
         justify-content: center; 
     }
+
+    /* Modale Thomas Origine : */
+#modaleOrigin{
+    background-color: #333333;
+}
+.modalTitle{
+    color: #F15A29;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.modalBigTitle{
+    color: #F15A29;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.buttonReturn{
+    color: #F15A29;
+}
+.par{
+    padding: 10px;
+}
+
 }

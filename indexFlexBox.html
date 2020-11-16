@@ -31,22 +31,22 @@
             </div>
         </div>
     </div>
-    <div class="container mt-4 rem3">
-        <div class="row justify-content-center">
-            <div class="col-3 col-md-1 mx-2"><img src="assets/img/cisors.PNG.png" alt="" class="sizeIcone"></div>
-            <div class="col-3 col-md-1 mx-2"><img src="assets/img/paper.PNG.png" alt="" class="sizeIcone"></div>
-            <div class="col-3 col-md-1 mx-2"><img src="assets/img/rock.PNG.png" alt="" class="sizeIcone"></div>
+    
+        <div class="flexBox1">
+            <img src="assets/img/cisors.PNG.png" alt="" class="img draggable3" draggable="true">
+            <img src="assets/img/paper.PNG.png" alt="" class="img draggable3" draggable="true">
+            <img src="assets/img/rock.PNG.png" alt="" class="img draggable3" draggable="true">
         </div>
-    </div>
-    <div class="container mt-4 rem3">
-        <div class="row justify-content-center text-center align-items-center">
-            <div class="col-4 col-md-2 box1">
-                <p class="h7 center">Glisser / Déposer</p>
+    
+    
+        <div class="flexBox2">
+            <div id="droppable">
+                <p class="h7">Glisser / Déposer</p>
             </div>
-            <div class="col-2 col-md-1 colorOrange h3">vs</div>
-            <div class="col-4 col-md-2 box2"></div> 
+            <div class="colorOrange h3">vs</div>
+            <div class="box2"></div> 
         </div>
-    </div>
+    
     <div class="container-fluid rem6">
         <div class="row end">
             <!-- Bouton Règles -->
@@ -73,15 +73,31 @@
             <!-- Modal Origines -->
             <div class="modal fade" id="origins" tabindex="-1" aria-labelledby="originsLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="originsLabel">Règles du Shifumi</h5>
+                    <div class="modal-content" id="modaleOrigin">
+                        <div class="modalBigTitle text-center">Origines du jeu Pierre Feuille Ciseaux
+                        
                         <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
                         </div>
-                        <div class="modal-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aspernatur sed pariatur amet porro est?
+                        <div class="modal-body text-white text-center"><p class="par"> Quelles sont les origines du jeu Pierre Feuille Ciseaux ? Ou de son autre appellation le jeu Shifumi ? Ce mécanisme de jeu existe sur l’ensemble des continents ! Alors où puiser une origine historique pour un jeu simple, mais terriblement efficace ! <br> Beaucoup d’éléments tente à déterminer une origine non européenne, ni du moyen orient. Plus loin alors ? Indienne ? Non, il faut voir plus loin : l’Asie.</p>
                         </div>
+                        <div class="modalTitle text-center mb-3">Pierre Feuille Ciseaux en occident ?</div>
+                        <div class="text-white text-center"><p class="par"> Les historiens font remonter l’apparition du pierre feuille ciseaux en occident au 19e siècle. Le jeu a acquis cette popularité que l’on chante à travers les pages de notre site, et à travers le monde à partir de cette époque. son origine est plus ancienne. <br>
+                            Il n’y a aucune trace de Chi Fou Mi en Occident avant qu’il n’y ait d’échanges modernes avec l’Asie. D’ailleurs les auteurs occidentaux de la fin du XIXè siècle l’ont mentionné comme un jeu asiatique.</p></div>
+                        <div class="modalTitle text-center mb-3">Regardons du côté du japon, l’origine du Shifumi ?</div>
+                        <div class="text-white text-center"><p class="par"> Rapidement, voir automatiquement, nos pensées se tournent vers le japon. C’est d’ailleurs là que l’on retrouve le Jan-ken-pon ( じゃんけんぽん),  appelé également  Janken (じゃんけん). <br>
+                        En fonction des pays, il est aussi traduit via des expressions comme Jankenpyon, Janken-pon...  appelé parfois ishiken (いしけん, « pierre poing »), encore sous le nom de pierre-papier-ciseau en occident est un des jeux les plus populaires et le plus connu des jeux qui n’utilisent que les mains/poings, connu sous le nom de « jeu de ken (poing) » (拳遊び, ken asobi). <br>
+                        Au Japon, le jeu semble être arrivé au XVIIe siècle venant d’un autre pays.</p>
+                        </div>
+                        <div class="modalTitle text-center mb-3">Pierre Feuille Ciseaux : des origines asiatiques</div>
+                        <div class="text-white text-center"><p class="par"> Chi Fou Mi fut manifestement inventé en Chine. Selon un livre écrit par Xiè Zhàozhì et nommé Wuzazu (五杂组 / 五雜組 (ou Wǔzázǔ ou 五雜俎), les seigneurs de la dynastie Han (206 av. J.-C. à 220 apr. J.-C) jouaient à un jeu considéré comme le Chi Fou Mi. <br>
+
+                            il semble que c’était d’ailleurs un jeu à boire nomé shoushìlìng (手勢令) <br>
+                            
+                            Néanmoins, les Chinois utilisaient l’objet “tissu” avec la “pierre” et les “ciseaux”, alors que les Japonais l’ont renommé “feuille”. D’autre part, le nom Chi Fou Mi est sans doute issu du japonais Hi Fu Mi (Un deux trois). Les commentaires donnent plus d’explications concernant le nom Shi Fu Mi. <br>
+                            
+                            Si la Chine a inventé et diffusé localement le Pierre Feuille Ciseaux, c’est l’occident qui l’a diffusé massivement en développant librement ou par la force les échanges commerciaux au XIXe siècle. On peut y voir une autre forme de mondialisation.</p></div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn buttonReturn" data-dismiss="modal">Retour</button>
                         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                         </div>
                     </div>
